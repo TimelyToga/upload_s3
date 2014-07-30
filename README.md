@@ -20,3 +20,11 @@ upload_s3.py usage:
 *        `filename` is the path to the file to upload [REQUIRED]
 *        `file_extension` is a string that specifies any valid file extension (starts with a '.') {OPTIONAL}
 *        `file_key` is the key that the file will be stored in s3 under {OPTIONAL}
+
+# Requirements
+
+The only third party dependency for this script is the boto library. To get boto use the following command:
+
+`pip install boto`
+
+[Boto Documentation](http://boto.readthedocs.org/en/latest/getting_started.html)
